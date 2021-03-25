@@ -26,3 +26,10 @@
 """
 
 ip = "192.168.3.1"
+otput = ip.split('.')
+
+print (f'''
+{otput[0]:<10}{otput[1]:<10}{otput[2]:<10}{otput[3]:<10}
+{int(otput[0]):08b}  {int(otput[1]):08b}  {int(otput[2]):08b}  {int(otput[3]):08b}
+''')
+
